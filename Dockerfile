@@ -51,5 +51,5 @@ RUN chmod +x /root/run.sh
 
 VOLUME /opt/iobroker/
 
-EXPOSE 8081
+EXPOSE 8081 8082
 CMD /root/run.sh
